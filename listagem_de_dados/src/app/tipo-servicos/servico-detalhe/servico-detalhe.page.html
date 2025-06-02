@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-back-button slot="start" defaultHref="/"></ion-back-button>
+    <ion-title>Detalhes do serviço</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-list-header><strong> {{ servico.titulo }} </strong></ion-list-header>
+    <ion-item> Preço: R$ {{ servico.preco }} </ion-item>
+  </ion-list>
+</ion-content>

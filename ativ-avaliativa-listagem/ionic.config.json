@@ -1,0 +1,7 @@
+{
+  "name": "ativ-avaliativa-listagem",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

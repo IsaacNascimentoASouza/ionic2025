@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-back-button slot="start" defaultHref="/"></ion-back-button>
+    <ion-title>Disciplina: {{ disciplina.titulo }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-list-header><strong> {{ disciplina.titulo }} </strong></ion-list-header>
+    <ion-item> Descrição: {{ disciplina.descricao }} </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "listagem_de_dados",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
